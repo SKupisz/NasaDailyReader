@@ -1,0 +1,73 @@
+@media screen and (max-width: 800px){
+    .main-header{
+        font-size: 2.5em;
+    }
+    .desc,.welcome-desc,.welcome-main-desc,.about-desc{
+        font-size: 1em;
+    }
+    .daily-photo{
+        max-width: 600px;
+        height: auto;
+        max-height: 400px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .welcome-desc{
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(60% - 10px);
+        padding: 5px;
+    }
+    .large-desc{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 604px){
+    .main-header{
+        font-size: 2em;
+    }
+    .desc{
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+}
+@media screen and (max-width: 544px){
+    .large-desc{
+        width: calc(90% - 20px);
+    }
+}
+@media screen and (max-width: 486px){
+    .welcome-main-desc{
+        font-size: 0.9em;
+    }
+    .photoOfTheDay figcaption{
+        margin: 5px;
+    }
+    .daily-photo{
+        max-width: 280px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 428px){
+    .desc{
+        font-size: 0.9em;   
+    }
+}
+@media screen and (max-width: 392px){
+    .about-desc,.large-desc{
+        padding-bottom: 4px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 378px){
+    .main-header{
+        font-size: 1.7em;
+    }
+}
+@media screen and (max-width: 326px){
+    .welcome-main-desc{
+        font-size: 0.85em;
+    }
+}

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class LoadNasaData extends Controller
 {
-    private $api_key = "0iMIU6pPXL6u9aR7nqcJTjnuT1mVqlSFmO6OoLco";
+    private $api_key = "DEMO_KEY"; //here you are pasting your API code if you have one
     public $type = "",$resourceAddress = "",$title = "",$description = "";
     public function giveUsFeedback(){
         $result = file_get_contents("https://api.nasa.gov/planetary/apod?api_key=0iMIU6pPXL6u9aR7nqcJTjnuT1mVqlSFmO6OoLco");

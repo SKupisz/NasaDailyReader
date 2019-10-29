@@ -18,4 +18,3 @@
       </ul>
     </div>
   </nav>
-<!-- TODO: poprawić, by ten navbar jakoś wyglądał -->
