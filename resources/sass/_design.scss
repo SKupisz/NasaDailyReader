@@ -1,0 +1,45 @@
+.main-container{
+    text-align: center;
+}
+.main-header{
+    font-size: 4em;
+    font-family: 'Oswald',sans-serif;
+}
+.photoOfTheDay{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+.photoOfTheDay figcaption{
+    margin: 10px;
+    padding: 2px;
+    font-family: 'Lato',sans-serif;
+}
+.daily-photo{
+    max-width: 800px;
+    height: auto;
+    max-height: 500px;
+    width: auto;
+}
+.desc,.welcome-desc,.welcome-main-desc,.about-desc{
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+.welcome-desc{
+    font-size: 1.3em;
+    width: 60%;
+}
+.large-desc{
+    width: 70%;
+}
+.welcome-main-desc,.about-desc{
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+.about-desc{
+    width: calc(85% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+}
